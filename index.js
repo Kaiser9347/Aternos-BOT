@@ -14,10 +14,10 @@ function createBot() {
 
   const bot = mineflayer.createBot({
     viewDistance: 1,
-    host: "hazedecria.aternos.me", // <= Coloca seu IP aqui
+    host: "KrytexxMC.aternos.me", // <= Coloca seu IP aqui
     version: "1.17",
     username: `${getContent}`,
-    port: 41074, // <= Coloca sua PORTA aqui
+    port: 14858, // <= Coloca sua PORTA aqui
     plugins: [AutoAuth, armorManager, pathfinder],
     AutoAuth: "bot112022",
   });
